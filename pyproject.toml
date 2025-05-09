@@ -21,6 +21,11 @@ select = [
 ignore = [
     # `format` will wrap lines.
     "E501",
+    # FIXME: pytest-fixture-no-parentheses
+    "PT001",
+    "PT023",
+    # FIXME: parenthesize-chained-operators
+    "RUF021",
 ]
 
 [tool.ruff.lint.isort]
